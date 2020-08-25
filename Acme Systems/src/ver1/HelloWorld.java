@@ -11,4 +11,8 @@ public class HelloWorld {
 		String msg = "Hey now!";
 		System.out.println(msg);
 	}
+	
+	public static void whatFor(String input) {
+		System.out.println(input + "stringArg, what for?");
+	}
 }
